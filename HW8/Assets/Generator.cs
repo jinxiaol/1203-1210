@@ -24,7 +24,7 @@ public class Generator : MonoBehaviour
             this.span = Random.Range(0.5f, 1.0f);
 
             GameObject go = Instantiate(arrowPrefab);
-            int px = Random.Range(-9, 9);
+            int px = Random.Range(-8, 8);
             go.transform.position = new Vector3(px, 7, 0);
         }
     }
